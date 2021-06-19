@@ -1,0 +1,167 @@
+vim /etc/apt/sources.list  修改为国内原
+渗透测试标准：
+1.前期交互
+2.情报收集
+3.威胁建模
+漏洞分析
+渗透攻击
+后渗透测试
+渗透测试报告
+sudo chmod 777  /etc/NetworkManager/NetworkManager.conf
+修改kail文件属性
+
+/etc/apt/soources.list  :kaili代码源文件修改
+
+
+#！ /bin/bash
+chmod +x 1.sh //将文件转化为可执行文件
+./1.sh  //运行可执行文件
+echo -n 不换行
+
+seq//不换行
+
+dhclient eth0//
+
+ifconfig eth0 ip /24 //设置网卡IP地址+掩码24位
+route add default gw 192.168.197.2//添加默认网关
+route add -net 176.16.0.0/24 gw 192.168.1.100 eth0 //添加默认网段网关
+dns服务器配置 vi   /etc/resolve.conf
+
+vi /etc/network/interfaces //编辑网卡配置文件长期有效
+
+apt-get upgrade//更新
+
+
+
+#set java environment
+JAVA_HOME=/usr/java/jdk1.8.0_191    
+JRE_HOME=/usr/java/jdk1.8.0_191/jre     
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH
+
+
+http://onionwiki.net/drugs-links-tor.html  //tor
+
+https://www.turnkeylinux.org/all
+
+ncat  -nvl  port -c bash //建立服务器
+ncat -c bash  --allow ip -vnl port -ssh //ncat 加密传到文件信息
+init6 重启
+
+tcpdump
+
+字典爆破
+
+dnsenum -f  /usr/share/dnsenum/dns.txt  -dnsserver 8.8.8.8 sina.com -o sina.xml
+使用dpkg -L dnusenum 查找文件中包含的自带的字典爆破文件
+用DNS 区域传输时--将一台服务器上的区域变更同步到其他服务上去
+dig @域名1  域名2 axrf
+
+host -T -l sina.com ns3.sina.coma
+该方法可以获取很多DNS ip值
+
+dnsrecon -d sina.com --lifetime 10 brt -D 字典文本
+该方式为字典暴力破解的另一种
+
+
+
+NDS注册信息
+www.apnic.net //域名信息查询
+
+www.archive.org/web/web.php  //网站快照
+gnome.tewak.tool
+traceroute baidu.com
+
+hping3  -c 10 -S --spoof 192.168.197.139 -p 8080 192.168.197.135
+//此方式为地址欺骗 可以通过其他ip地址对目标进行端口扫描，但却无法获得目标地址的端口是否存在。必须通过ip地址的抓包才能发现
+
+nmap 192.168.197.135 -p1-100  -sV //端口服务扫描最高
+
+nbtscan -r 192.168.197.1 //主机识别
+
+enum4linux -a 192.168.197.137  //非常详细的罗列出ip地址的信
+
+github.com
+
+https://raw.githubusercontent.com/freefq/free/master/v2  //节点订阅
+
+
+https://github.com/freefq/free  //免费节点获取
+
+
+
+intruder//密码暴力破解
+
+https://jdycloud.xyz/user//筋斗云
+
+http://effecthub.com/particle2dx //粒子特效制作
+
+http://tool.chinaz.com/Tools/JsFormat.aspx //格式化转化工具
+
+https://www.w3school.com.cn/ //菜鸟教程在线文档
+
+
+<!ELEMENT students (student*)>
+<!ELEMENT  student (name ,age,sex)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT  age (#PCDATA)>
+<!ELEMENT  sex (#PCDATA)>
+<!ATTLIST student number ID #REQUIRED>//xml ELEMENT约束  
+ dtd
+
+
+
+ resp.setContentType("text/html;charset=utf-8");//格式设置
+
+
+
+https://mvnrepository.com/  //maven jar包
+
+
+https://gitee.com/Avenger1/my.git
+
+
+http://localhost:8080/dubbo-admin-2.6.0/
+https://cn.vuejs.org/v2/guide/
+
+https://element.eleme.cn/#/zh-CN/
+
+
+ <dependency>
+      <groupId>org.mybatis.generator</groupId>
+      <artifactId>mybatis-generator-core</artifactId>
+      <version>1.3.2</version>
+    </dependency>
+
+
+   <plugin>
+
+
+
+      <groupId>org.mybatis.generator</groupId>
+      <artifactId>mybatis-generator-maven-plugin</artifactId>
+      <version>1.3.2</version>
+      <configuration>
+        <configurationFile>
+          src/main/resources/generatorConfig.xml
+        </configurationFile>
+      </configuration>
+    </plugin>
+
+
+
+
+https://wanwang.aliyun.com/
+
+
+
+www.wtbidc.com
+
+
+http://www.dedecms.com/
+
+
+
+
+https://sdf15612wefcs.xyz/link/IDezl4Ixsy9LIqhP?sub=3&extend=1

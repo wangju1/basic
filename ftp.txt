@@ -1,0 +1,11 @@
+ftp连接地址：ftp.wtbidccdn50.cn
+ wangjua
+
+6CFC07096Db5e1 
+
+数据库：
+数据库名称：a0606110256
+数据库用户名：a0606110256
+数据库密码：5110f200
+ftp.wtbidccdn50.cn(安装程序时，主机地址请填写:localhost)
+
